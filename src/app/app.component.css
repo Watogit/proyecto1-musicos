@@ -1,0 +1,23 @@
+/* estilos de la clase de objetos*/
+
+.tarjeta {
+    width: 280px;
+    border: 2px solid grey;
+    margin: 20px;
+    box-shadow: 2px 3px 10px grey;
+    border-radius: 25px;
+    padding-bottom: 20px;
+}
+
+.animales{
+    font-size: medium;
+    text-align: center;
+    display: block;
+    padding: 10%;
+    border-radius: 25px;
+}
+
+.imagen {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}

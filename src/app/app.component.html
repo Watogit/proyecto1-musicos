@@ -81,3 +81,41 @@
 </div>
 
 </div>
+
+<!--Aqui comieza la clase de objetos-->
+
+<div>
+  <h2>{{animales[2].nombre}}</h2><!--llamamos el tercer animal del arreglo y solicitamos su nombre-->
+  <h2>{{animales[2].habitat}}</h2><!--llamamos el tercer animal del arreglo y solicitamos su habitat-->
+</div>
+
+<div><!--Lista tipo ul con el nombre de los 3 ultimso animales del arreglo-->
+  <ul>
+    <li>{{animales[5].nombre}}</li>
+    <li>{{animales[6].nombre}}</li>
+    <li>{{animales[7].nombre}}</li>   
+  </ul>
+</div>
+
+<div><!--en esta lista utilizaremos una funcinalidad de angular para llamar todos los animales.nombre, del arreglo sin hacerlo uno por uno-->
+  <ul>
+    <li *ngFor="let animal of animales">
+      {{animal.nombre}}
+    </li>
+  </ul>
+</div>
+
+<div *ngFor="let animal of animales" class="tarjeta"> <!--Ene sta divicion utilizamos la misma funcionalidad para crear targetas de los animales-->
+  <img class="imagen" [src]="animal.imagen"> <!--esta funcionalidad es similar pero para llamar el animal del arreglo y su imagen-->
+  <div class="animales">
+    <span > Nombre:
+      {{animal.nombre}}
+    </span><br>
+    <span> peso promedio:
+      {{animal.peso_promedio}}
+    </span><br>
+    <span> Numero de patas:
+      {{animal.  numero_patas}}
+    </span>
+  </div>
+</div>
