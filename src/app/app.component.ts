@@ -26,7 +26,7 @@ export class AppComponent {
   },
   { 
     nombre: "Sante_Sante",
-    imagen:"//t3.gstatic.com/licensed-image?q=tbn:ANd9GcRoT6NNDUONDQmlthWrqIi_frTjsjQT4UZtsJsuxqxLiaFGNl5s3_pBIVxS6-VsFUP",
+    imagen:"https://www.eltiempo.com/files/article_main_1200/uploads/2020/12/11/5fd3fa73adf98.jpeg",
     peso_promedio: "4kg",
     numero_patas:4,
     color_predominante: "todos",
@@ -36,7 +36,7 @@ export class AppComponent {
   },
   {
     nombre: "Marti_cebra",
-    imagen:"//t3.gstatic.com/licensed-image?q=tbn:ANd9GcRoT6NNDUONDQmlthWrqIi_frTjsjQT4UZtsJsuxqxLiaFGNl5s3_pBIVxS6-VsFUP",
+    imagen:"https://i.ytimg.com/vi/VIgyP3VfTl4/maxresdefault.jpg",
     peso_promedio: "4kg",
     numero_patas:"4",
     color_predominante: "negro",
@@ -46,7 +46,7 @@ export class AppComponent {
   },
   {
     nombre: "Gloria_hipopotamo",
-    imagen:"//t3.gstatic.com/licensed-image?q=tbn:ANd9GcRoT6NNDUONDQmlthWrqIi_frTjsjQT4UZtsJsuxqxLiaFGNl5s3_pBIVxS6-VsFUP",
+    imagen:"https://pbs.twimg.com/media/EbESyHdWkAYcMFG.jpg",
     peso_promedio: "1400kg",
     numero_patas:4,
     color_predominante: "gris",
@@ -66,7 +66,7 @@ export class AppComponent {
   },
   {
     nombre:"Covalsqui_Pinguino",
-    imagen:"https://img2.freepng.es/20171218/df4/madagascar-penguins-png-5a378c564ecf11.8342367515135898463228.jpg",
+    imagen:"https://i1.wp.com/cinicosdesinope.com/wp-content/uploads/2015/12/pinguinos-de-madagascar-kowalski.jpg?resize=706%2C738",
     peso_promedio: "40kg",
     numero_patas:2,
     color_predominante: "negro",
@@ -76,7 +76,7 @@ export class AppComponent {
   },
   {
     nombre:"Melman_Jirafa",
-    imagen:"https://static.wikia.nocookie.net/doblaje/images/b/b9/MelmanCharacterMadagascar03.png/revision/latest?cb=20190624012212&path-prefix=es",
+    imagen:"https://i.pinimg.com/originals/e9/8b/b9/e98bb932170a4a9677914f2bb725f190.jpg",
     peso_promedio: "1200kg",
     numero_patas:4,
     color_predominante: "amarillo",
