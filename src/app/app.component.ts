@@ -120,7 +120,95 @@ export class AppComponent {
     {return false;}
   }
   estudiantes:string[]=["lady","nath","walter","daniela","romario","alejandro","luisa"];
+
+  /* aqui comienza clase presentacion----*/
+/*
+  equipo = {
+    Nombre:"Seleccion espanola de Futbol",
+    Nombre_del_pais: "Espana",
+    Nombre_alternativo: ["La","Roja"],
+    Colores: ["amarillo","rojo"],
+    Titulos_ganados: [
+      {
+        Nombre:"Copa del mundo fifa 2010"
+      },
+      {
+        Nombre: "Eurocopa 1964"
+      },
+      {
+        Nombre: "Eurocopa 2008"
+      },
+      {
+        Nombre: "Eurocopa 2012"
+      }
+    ],
+  Nombre_Capitan: "Álvaro Morata",
+  Nombre_entrenador: "Luis de la Fuente ",
+  Logo: "https://c8.alamy.com/compes/2dbjnp2/logo-del-equipo-nacional-de-futbol-espanol-la-seleccion-espanola-de-futbol-espana-2dbjnp2.jpg",
+  Abreviacion: "ESP",
+  Goleador: [
+    {
+      Nombre:"David Villa",
+    },
+    {
+      Goles: 59,
+    }
+  ], 
+  estadio: {
+    Nombre:"Estadio La Cartuja de Sevilla",
+    Apodo:"La Cartuja",
+    Capasidad:	57619,
+  },
+  Jugadores:[
+    {
+      Nombre:"Robert",
+      Apellido:"Sánchez",
+      Edad:25,
+      Altura:197,
+      Lugar_nacimiento:"Cartagena",
+      Posicion:"portero",
+      Club:"Brighton & Hove Albion F. C.",
+      Numero:1,
+    },
+    {
+      Nombre:"Eric",
+      Apellido:"Garcia",
+      Edad:22,
+      Altura:182,
+      Lugar_nacimiento:" Martorell",
+      Posicion:"Defensa",
+      Club:"F.C Barcelona",
+      Numero:3,
+    },
+    {
+      Nombre:"Hugo",
+      Apellido:"Guillamón",
+      Edad:23,
+      Altura:178,
+      Lugar_nacimiento:"San Sebastián",
+      Posicion:"Defensa",
+      Club:"F.C Valencia",
+      Numero:15,
+    },
+    {
+      Nombre:,
+      Apellido:,
+      Edad:,
+      Altura:,
+      Lugar_nacimiento:,
+      Posicion:,
+      Club:,
+      Numero:,
+    },
+    
+    
+  ]
+
+  } */
+
 }
+
+
 
 
 
