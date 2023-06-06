@@ -21,3 +21,12 @@
     width: 100%;
     border-radius: 25px 25px 0 0;
 }
+
+/*-- clase 16-05-23--*/
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: stretch;
+}
